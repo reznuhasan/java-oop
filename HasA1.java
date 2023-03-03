@@ -3,16 +3,17 @@ class Car{
     Car(Engine eg){
         this.eg=eg;
     }
+   public void setEg(Engine eg){
+    this.eg=eg;
+   }
    public void start(){
-      if(eg.check()==true){
-        System.out.println("Car is start");
-      }
+     eg.EngineStart();
    }
 
 }
 class Engine{
-    public boolean check(){
-        return true;
+    public void EngineStart(){
+        System.out.println("Car is Start");
     }
 }
 public class HasA1 {
