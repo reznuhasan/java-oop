@@ -12,6 +12,8 @@ public class MethodTest {
        MethodTest obj=new MethodTest();
        obj.m1(12);
        obj.m1(12.345f);
+       obj.m1(10l);
+       obj.m1('a');
        obj.m1(245.66);
     }
    
